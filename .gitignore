@@ -294,3 +294,14 @@ $RECYCLE.BIN/
 python/src/common/middleware/middleware_rabbitmq.py
 
 golang/internal/solution
+
+# Devenv
+.devenv*
+devenv.local.nix
+devenv.local.yaml
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
