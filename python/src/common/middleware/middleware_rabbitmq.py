@@ -134,7 +134,7 @@ class _RabbitMQBase:
                     ack=lambda: channel.basic_ack(delivery_tag=tag),
                     nack=lambda: channel.basic_nack(
                         delivery_tag=tag,
-                        requeue=False,
+                        requeue=True,
                     ),
                 )
 
